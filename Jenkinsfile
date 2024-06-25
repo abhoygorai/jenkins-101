@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "Testing stuff"
+                echo "Testing stuff for cron"
                 '''
             }
         }
